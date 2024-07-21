@@ -13,8 +13,13 @@ public class Arithmetic
 	   return a*b;
    }
    
+
    public int Subs(int a,int b)
    {
 	   return a-b;
+   }
+   public int Division(int a,int b)
+   {
+	  return a/b;  
    }
 }
