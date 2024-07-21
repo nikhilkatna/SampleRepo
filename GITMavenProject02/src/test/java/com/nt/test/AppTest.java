@@ -32,4 +32,13 @@ public class AppTest
 	   int expected=0;
 	   assertEquals(expected,actual);
    }
+	
+   @Test
+   public void testWithMultiply()
+   {
+	   Arithmetic ar=new Arithmetic();
+	   int actual=ar.Multiply(5,5);
+	   int expected=25;
+	   assertEquals(expected,actual);
+   }
 }
