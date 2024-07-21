@@ -33,6 +33,7 @@ public class AppTest
 	   assertEquals(expected,actual);
    }
 	
+<<<<<<< HEAD
    @Test
    public void testWithMultiply()
    {
@@ -41,4 +42,7 @@ public class AppTest
 	   int expected=25;
 	   assertEquals(expected,actual);
    }
+=======
+ 
+>>>>>>> branch 'master' of https://github.com/nikhilkatna/SampleRepo.git
 }
