@@ -7,4 +7,9 @@ public class Arithmetic
 	   System.out.println("Arithmetic.sum()...Begin");
 	   return x+y;
    }
+   
+   public int Multiply(int a,int b)
+   {
+	   return a*b;
+   }
 }
