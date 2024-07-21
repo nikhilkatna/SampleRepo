@@ -23,4 +23,13 @@ public class AppTest
 	   int expected=-50;
 	   assertEquals(expected,actual);
    }
+	
+	@Test
+    public void testWithZeros()
+   {
+	   Arithmetic ar=new Arithmetic();
+	   int actual=ar.sum(0,0);
+	   int expected=0;
+	   assertEquals(expected,actual);
+   }
 }
